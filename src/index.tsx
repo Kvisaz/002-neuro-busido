@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {AppStore} from "./services/store";
 import {Provider} from "react-redux";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 ReactDOM.render(
     <React.StrictMode>

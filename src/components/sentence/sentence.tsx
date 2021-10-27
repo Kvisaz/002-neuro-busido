@@ -7,6 +7,6 @@ export interface ISentenceProps {
 
 export const Sentence: React.FC<ISentenceProps> = ({sentence}) => {
     return (
-        <div className={styles.main}>{sentence}</div>
+        <div className={`${styles.main} ${styles.bganimation} ${styles.text}`}>{sentence}</div>
     )
 }

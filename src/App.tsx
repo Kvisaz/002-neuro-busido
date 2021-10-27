@@ -1,8 +1,11 @@
 import React, {useEffect} from 'react';
+import Button from 'react-bootstrap/Button';
+
 import {useDataState, useDispatch} from "./hooks";
 import {DataActionType} from "./services/actions";
 import {Sentence} from "./components/sentence/sentence";
 import {loadScript} from "./services/utils/loadScript";
+import {ButtonNext} from "./components/button-next/button-next";
 
 function App() {
 
@@ -24,6 +27,7 @@ function App() {
     return (
         <div className="App">
             <Sentence sentence={sentence}/>
+            <ButtonNext />
         </div>
     );
 }
