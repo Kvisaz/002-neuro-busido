@@ -39,7 +39,17 @@
     background: rgba(255, 255, 255, 0.2);
     animation: animate 25s linear infinite;
     bottom: -150px;
+}
 
+.bottom  .circles li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animateDown 25s linear infinite;
+    bottom: -150px;
 }
 
 .circles li:nth-child(1) {
@@ -129,6 +139,22 @@
 
     100% {
         transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+
+@keyframes animateDown {
+
+    0% {
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100% {
+        transform: translateY(1000px) rotate(0deg);
         opacity: 0;
         border-radius: 50%;
     }
