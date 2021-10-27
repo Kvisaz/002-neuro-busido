@@ -6,12 +6,19 @@
     align-items: center;
     justify-content: center;
 
-    display: flex;
     gap: 16px;
     color: #928b8b;
     font-size: 1em;
+
+    text-align: center;
 }
 
 .main a {
     color: #928b8b;
+}
+
+@media screen and (max-width: 450px) {
+   .main{
+       font-size: 12px;
+   }
 }

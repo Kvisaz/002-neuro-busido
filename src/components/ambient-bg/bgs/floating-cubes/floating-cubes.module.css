@@ -14,11 +14,11 @@
 }
 
 .up {
-    background: linear-gradient(0deg, #16c9ff, #00076d);
+    background: linear-gradient(0deg, #16c9ff, #110c4b, #00076d);
 }
 
 .bottom {
-    background: linear-gradient(180deg, #16c9ff, #00076d);
+    background: linear-gradient(180deg, #16c9ff, #00076d, #01001c);
 }
 
 .circles {
