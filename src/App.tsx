@@ -1,11 +1,11 @@
-import React, {useEffect} from 'react';
-import Button from 'react-bootstrap/Button';
+import React, {useCallback, useEffect} from 'react';
 
 import {useDataState, useDispatch} from "./hooks";
 import {DataActionType} from "./services/actions";
 import {Sentence} from "./components/sentence/sentence";
 import {loadScript} from "./services/utils/loadScript";
 import {ButtonNext} from "./components/button-next/button-next";
+import {Footer} from "./components/footer/footer";
 
 function App() {
 
@@ -22,12 +22,14 @@ function App() {
 
     }, [dispatch])
 
-    console.log('sentences', sentences)
-
     return (
         <div className="App">
             <Sentence sentence={sentence}/>
-            <ButtonNext />
+            <Footer>
+                <div>Нейро Бусидо - кликай на страницу и становись мудрее</div>
+                <div>(c) <a href='https://kelijah.livejournal.com/292717.html'>Автор текстов</a></div>
+                <div>(c) <a href='https://github.com/Kvisaz/002-neuro-busido'>исходник этого сайта (не текстов)</a></div>
+            </Footer>
         </div>
     );
 }
