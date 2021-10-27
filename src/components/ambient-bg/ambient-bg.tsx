@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './ambient-bg.module.css';
 
 import {useDataState} from "../../hooks";
+import {FloatingCubes, GradientBg} from "./bgs";
 
 export const AmbientBg: React.FC = () => {
 
@@ -9,7 +9,9 @@ export const AmbientBg: React.FC = () => {
 
 
     const bgs = [
-        (<div className={`${styles.main} ${styles.gradientAnimation}`}></div>),
+        (<FloatingCubes direction='bottom'/>),
+        (<GradientBg/>),
+        (<FloatingCubes direction='up'/>),
     ]
 
     const nextIndex = lastSentenceIndex % bgs.length;
