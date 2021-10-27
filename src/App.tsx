@@ -14,6 +14,8 @@ function App() {
     const {sentences, lastSentenceIndex} = useDataState();
     const sentence = sentences[lastSentenceIndex] ?? 'NO SENTENCE';
 
+    console.log('lastSentenceIndex ', lastSentenceIndex)
+
     useEffect(() => {
         loadScript(window.location + '/data/sentences.js')
             .then(() => {

@@ -1,8 +1,10 @@
 # Neuro Busido
+                                    
+[https://kvisaz.github.io/002-neuro-busido/](https://kvisaz.github.io/002-neuro-busido/)
 
-просто небольшое приложение на React App
+просто небольшое приложение на React App. Кликайте на странице и получайте следующую порцию нейро-бусидо.
 
-тексты отсюда - [https://kelijah.livejournal.com/292717.html](https://kelijah.livejournal.com/292717.html)
+тексты сделаны нейронной сетью, мастер сети - [https://kelijah.livejournal.com/292717.html](https://kelijah.livejournal.com/292717.html)
 
 исходники этого проекта можно забирать, особенно автору текстов.
 

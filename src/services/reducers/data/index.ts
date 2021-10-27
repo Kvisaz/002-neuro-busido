@@ -21,7 +21,9 @@ export function dataReducer(state: IDataState = InitialDataState, action: DataAc
         case DataActionType.NEXT_SENTENCE:
             return {
                 ...state,
-                lastSentenceIndex: state.lastSentenceIndex + 1
+                lastSentenceIndex: state.lastSentenceIndex < state.sentences.length - 1
+                    ? state.lastSentenceIndex + 1
+                    : 0
             }
         default:
             return {
