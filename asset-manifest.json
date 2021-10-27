@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/002-neuro-busido/static/css/main.2a1ac301.chunk.css",
+    "main.js": "/002-neuro-busido/static/js/main.42369f39.chunk.js",
+    "main.js.map": "/002-neuro-busido/static/js/main.42369f39.chunk.js.map",
+    "runtime-main.js": "/002-neuro-busido/static/js/runtime-main.3e7cdea6.js",
+    "runtime-main.js.map": "/002-neuro-busido/static/js/runtime-main.3e7cdea6.js.map",
+    "static/js/2.a50d161d.chunk.js": "/002-neuro-busido/static/js/2.a50d161d.chunk.js",
+    "static/js/2.a50d161d.chunk.js.map": "/002-neuro-busido/static/js/2.a50d161d.chunk.js.map",
+    "static/js/3.f6702fef.chunk.js": "/002-neuro-busido/static/js/3.f6702fef.chunk.js",
+    "static/js/3.f6702fef.chunk.js.map": "/002-neuro-busido/static/js/3.f6702fef.chunk.js.map",
+    "index.html": "/002-neuro-busido/index.html",
+    "static/css/main.2a1ac301.chunk.css.map": "/002-neuro-busido/static/css/main.2a1ac301.chunk.css.map",
+    "static/js/2.a50d161d.chunk.js.LICENSE.txt": "/002-neuro-busido/static/js/2.a50d161d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e7cdea6.js",
+    "static/js/2.a50d161d.chunk.js",
+    "static/css/main.2a1ac301.chunk.css",
+    "static/js/main.42369f39.chunk.js"
+  ]
+}
